@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: "vmtest-name2"
+spec:
+  type: virtual-machine
+  owner: group:group:default/acme-corp
+  lifecycle: experimental
+

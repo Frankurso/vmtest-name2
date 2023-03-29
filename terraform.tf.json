@@ -1,0 +1,63 @@
+{
+    "variable": {
+        "url": {
+          "description": "The URL of the vRealize Automation environment either vRA 8.x or vRA Cloud",
+          "default": "https://vra-01.dcsg.com"
+        },
+        "refresh_token": {
+          "description": "The refresh token to connect to the vRealize Automation environment",
+          "default": "0WGj4451pnvNG7AN6QeYgxsPTO4A4I64"
+        },
+        "appname": {
+          "default": "vmtest-name2"
+        },
+        "insecure": {
+          "description": "Should SSL verification be skipped? true = skip ssl verification",
+          "type": "bool",
+          "default": "true"
+        },
+        "project": {
+          "default": ""
+        },
+        "vm_size" : {
+          "default": "Tiny"
+        },
+        "owner" : {
+          "default": "group:default/acme-corp"
+        },
+        "jira_group" : {
+          "default": "tech-unixengineering"
+        },
+        "group_email" : {
+          "default": "frank.urso@dcsg.com"
+          },
+        "resource_group" : {
+          "default": "rg-compute-runtime-vm-deploy-np"
+        },
+        "vnet" : {
+          "default": "vnet-compute-runtime-vm-deploy-np-ue"
+        },
+        "snet" : {
+          "default": "snet-compute-runtime-vm-deploy"
+        },
+        "subscription" : {
+          "default": "sub-enterprise-nonprod-1"
+        },
+        "os_type" : {
+          "default": "linux"
+        },
+        "os_image" : {
+          "default": "Ubuntu2004"
+        },
+        "disk_size" : {
+          "default": "20"
+        },
+        "patch_group" : {
+          "default": "13"
+        },
+        "environment" : {
+          "default": "Environment:np"
+        }
+      }
+  }
+  
